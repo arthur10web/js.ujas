@@ -15,18 +15,18 @@ const Pasw = document.getElementById('passtheword')
 
 Login1.addEventListener('change', function () {
     if (!(Login1.value === '' || Pass1.value === '')) {
-        buttLog.removeAttribute('disabled')
+        butL.removeAttribute('disabled')
 
     } else {
-        buttLog.setAttribute('disabled', true)
+        butL.setAttribute('disabled', true)
     }
 })
 Pass1.addEventListener('change', function () {
     if (!(Login1.value === '' || Pass1.value === '')) {
-        buttLog.removeAttribute('disabled')
+        butL.removeAttribute('disabled')
     } else {
 
-        buttLog.setAttribute('disabled', true)
+        butL.setAttribute('disabled', true)
     }
 })
 
